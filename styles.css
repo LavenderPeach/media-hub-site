@@ -98,3 +98,13 @@ button {
 }
 
 .show {display: block;}
+
+.layer-1 {
+    /* set background image */
+    background-image: url('https://static.hbo.com/content/dam/hbodata/series/the-wire/ka/the-wire-ka-1920.jpg');
+    /* set background size and position */
+    background-size: cover;
+    background-position: center;
+    /* define height */
+    height: 400px ;
+}
