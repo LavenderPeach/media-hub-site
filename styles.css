@@ -8,7 +8,9 @@
 }
 
 body {
-    min-height: 100vh;
+    min-height: 1000px;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -59,7 +61,8 @@ button {
 }
 
 .footer {
-    position: fixed;
+    /* push the footer to the bottom of the page */
+    margin-top: auto; 
     bottom: 0;
     left: 0;
     right: 0;
@@ -106,5 +109,42 @@ button {
     background-size: cover;
     background-position: center;
     /* define height */
-    height: 400px ;
+    height: 200px ;
+}
+
+.layer-2 {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex-basis: 30%;
+    color: black;
+}
+
+.layer-3 {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-height: 20%;
+}
+
+.layer-3 img {
+    width: 20%;
+}
+
+.layer-4 {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.half {
+    flex-basis: 40%;
+    color: black;
 }
