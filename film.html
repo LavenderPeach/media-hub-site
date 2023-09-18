@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="router.js" defer></script>
+    <title>Template</title>
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html">
+            LOGO
+        </a>
+        </div>
+        <div class="right-side">
+            <ul class="navigation">
+                <a href="film.html">Films</a>
+                <a href="television.html">Television</a>
+                <a href="books.html">Books</a>
+                <a href="videogames.html">Video Games</a>
+                <a href="lists.html">Lists</a>
+                <a href="news.html">News</a>
+            </ul>            
+            <button class="log-in"><a href="login.html">Log In</a></button>
+        </div>
+    </header>
+    <main id="content">
+        <section class="filter-search">
+            <h3>Broswe by</h3>
+            <ul class="filter-nav">
+                <li>Year</li>
+                <li>Genre</li>
+                <li>Rating</li>
+                <li>Popular</li>
+                <li>Platform</li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for movies...">
+                <button>Search</button>
+            </div>
+        </section>
+
+        <section class="popular-movies">
+            <h3>Popular Movies</h2>
+            <div class="movie-posters">
+                <!-- dynamically generate movie posters here -->
+            </div>
+        </section>
+
+        <section class="recently-watched">
+            <h3>Friend Activity</h2>
+            <div class="movie-posters">
+                <!-- dynamically generated movie posters here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul class="bottom-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#press">Press</a></li>
+            <li><a href="#careers">Careers</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#terms">Terms</a></li>
+            <li><a href="#help">Help</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
